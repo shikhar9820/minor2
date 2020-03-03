@@ -1,0 +1,25 @@
+{
+  "name": "co.io",
+  "version": "1.0.0",
+  "description": "COA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikhar9820/minor2.git"
+  },
+  "author": "{Shikhar Kataruka, Shivam Khurana, Shreya Sneha, Vaibhav Gupta}",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikhar9820/minor2/issues"
+  },
+  "homepage": "https://github.com/shikhar9820/minor2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3"
+  }
+}
