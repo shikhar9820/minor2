@@ -14,7 +14,7 @@ const app = express();
 
 //mongoose.set("useNewUrlParser", true);
 //mongoose.set("useUnifiedTopology", true);
-//mongoose.connect("mongodb://localhost/books_record");
+//mongoose.connect("mongodb://localhost/CO_dot_io");
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended : true}));
@@ -83,7 +83,7 @@ app.get("*", function(req, res){
 app.listen(APP_PORT,
     APP_IP,
     () => console.log(
-        "Pustak is listening at:\n - Port: " + APP_PORT +
+        "CO.io is listening at:\n - Port: " + APP_PORT +
         "\n - IP: " + APP_IP + 
         "\n\nClick: http://"+APP_IP+":"+APP_PORT +
         "\n\n"
